@@ -1,0 +1,16 @@
+
+
+[
+  { 
+    "id": 100,
+    "fname": "Mary",
+    "lname": "Smith",
+    "email": "msmith@gmail.com"
+  },
+  { 
+    "id": 120,
+    "fname": "Betty",
+    "lname": "Jensen",
+    "email": "bJensen@gmail.com"
+  }
+]
