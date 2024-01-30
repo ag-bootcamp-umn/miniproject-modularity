@@ -1,16 +1,24 @@
+const form = document.querySelector('form');
+const fname = form.fname;
+const lname = form.lname;
+const email = form.email;
+
 form.addEventListener("submit", async function(event) {
   // gather up the form data
+  event.preventDefault();
 
   const resp = await fetch("/api/customer", {
     method: "POST",
     body: JSON.stringify({
-      id: req.body.id,
-      fname: req.body.fname,
-      lname: req.body.lname,
-      email: req.body.email
+      fname: fname.value,
+      lname: lname.value,
+      email: email.value
     }),
     headers: {
       "Content-Type": "application/json"
     }
   })
+  fname.value = '';
+  lname.value = '';
+  email.value = '';
 })

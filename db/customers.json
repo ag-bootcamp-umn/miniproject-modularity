@@ -1,16 +1,1 @@
-
-
-[
-  { 
-    "id": 100,
-    "fname": "Mary",
-    "lname": "Smith",
-    "email": "msmith@gmail.com"
-  },
-  { 
-    "id": 120,
-    "fname": "Betty",
-    "lname": "Jensen",
-    "email": "bJensen@gmail.com"
-  }
-]
+[{"id":100,"fname":"Mary","lname":"Smith","email":"msmith@gmail.com"},{"id":120,"fname":"Betty","lname":"Jensen","email":"bJensen@gmail.com"},{"id":"004b","fname":"Gary","lname":"Johnson","email":"bif@sdlkf.cd"},{"id":"a5e6","fname":"Doug","lname":"Barston","email":"rdp@gc.d"}]

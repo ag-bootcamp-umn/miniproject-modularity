@@ -1,7 +1,6 @@
 const express = require("express");
 const path = require("path");
 const fs = require("fs");
-
 const routes = require('./routes')
 
 const app = express();
@@ -16,5 +15,5 @@ app.use(express.urlencoded({ extended: true }));
 app.use(routes)
 
 app.listen(PORT, () => {
-  console.log(`Express is now up and running on http://localhost:${PORT}!`)
+  console.log(`Express is now up and running on http://localhost:${PORT}`)
 })
